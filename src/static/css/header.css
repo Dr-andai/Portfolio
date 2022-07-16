@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    justify-self: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    position: relative;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #f1636d;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #6387e0;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+}

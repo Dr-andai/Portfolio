@@ -1,9 +1,40 @@
-.main-background{
-    background-image: url('https://raw.githubusercontent.com/Dr-andai/portfolio/master/src/static/images/Portfolio-04.png');
-    background-size: 50%;
-    /* background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.box{
+    width: 100%;
+    height: 400px;
     display: flex;
-    max-width: 100%;
-    height: 100vh;
-    padding: 1rem; */
+    /* border: 5px solid black; */
+    position: relative;
+    top: 80px;
+    
+}
+.photo{
+   width: 400px;
+   height: 400px;
+   display: block;
+   background-image: url('https://raw.githubusercontent.com/Dr-andai/portfolio/master/src/static/images/Portfolio-04.png');
+   background-size: 320%;
+   background-repeat: no-repeat;
+   background-position: center;  
+}
+.card{
+     width: 70%;
+     height: 400px;
+     background-color: #445c46;
+     background-size: 100%;
+     left: 0px;
+}
+.content{
+    margin: 100px 250px;
+    justify-items: center;
+    color: aliceblue;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
