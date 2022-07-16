@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import "/frontend/static/css/header.css"
+import './static/css/header.css';
 
 function Header() {
     return (
             <div className="navbar">
-              <img src= "https://github.com/TheSPIDERshadow/Haem/blob/master/frontend/static/images/Haem%20Logo-07.png?raw=true" className ="logo" />
+              <img src= "https://raw.githubusercontent.com/Dr-andai/portfolio/master/src/static/images/DA%20logo-01.png" className ="logo" />
                   <ul>
                     <li><a href="#" className="header-link">Home</a></li>
                     <li><a href="#" className="header-link">Projects</a></li>

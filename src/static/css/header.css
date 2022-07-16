@@ -1,7 +1,7 @@
 .navbar{
-    width: 100%;
+    width: 95%;
     margin: auto;
-    padding: 35px 0;
+    padding: 30px 0;
     display: flex;
     background-color: transparent;
     position: fixed;
@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 60px;
     position: relative;
     cursor: pointer;
 }
@@ -21,13 +21,15 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #f1636d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #28382d;
 }
 .navbar ul li ::after{
     content: '';
     height: 3px;
     width: 0%;
-    background: #6387e0;
+    background: #f3900e;
     position: absolute;
     left: 0;
     bottom: -3px;
